@@ -1,0 +1,5 @@
+def add(a):
+    return lambda b: b-a
+n=int(input('Input number n\n'))
+b=int(input('Input number function b\n'))
+print(add(n)(b))

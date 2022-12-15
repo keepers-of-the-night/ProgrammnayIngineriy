@@ -1,0 +1,7 @@
+x=int(input('Input a\n'))
+y=int(input('Input b\n'))
+def f1(func, a, b):
+    return(func(a, b)) if(a>b) else None
+def f2(a, b):
+    return b*b+2*a*b+a*a
+print(f1(f2, x, y))
